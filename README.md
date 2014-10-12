@@ -1,4 +1,4 @@
-Goge - Revel Hello World App
+Goge - Revel Hello World
 ======================
 
 Revel Hello World app written in Goge
