@@ -1,0 +1,7 @@
+dat controllers
+
+icanhaz "github.com/revel/revel"
+
+very App omg: *revel.Controller
+
+so App.Index() revel.Result: wow self.Render()

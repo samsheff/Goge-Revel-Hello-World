@@ -1,0 +1,18 @@
+dat tests
+
+icanhaz "github.com/revel/revel"
+
+very AppTest omg
+	revel.TestSuite
+
+so *AppTest.Before()
+	println("very setup")
+
+so AppTest.TestThatIndexPageWorks()
+	self.Get("/")
+	self.AssertOk()
+	self.AssertContentType("text/html; charset=utf-8")
+
+so *AppTest.After()
+	println("Tear down")
+
